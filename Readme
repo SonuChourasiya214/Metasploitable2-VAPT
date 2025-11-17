@@ -1,0 +1,40 @@
+# 🔐 Metasploitable2 Vulnerability Assessment & Penetration Testing (VAPT)
+
+A complete Vulnerability Assessment & Penetration Testing (VAPT) project performed on **Metasploitable2**, an intentionally vulnerable Linux-based virtual machine used for penetration testing practice.  
+This project follows a real-world VAPT workflow including **Passive Recon, Active Recon, Enumeration, Vulnerability Analysis, Exploitation, Privilege Escalation**, and **Reporting**.
+
+---
+
+# 📌 Project Objectives
+- Perform complete VAPT on Metasploitable2
+- Identify open ports, services, and vulnerabilities
+- Exploit misconfigurations & known CVEs
+- Gain system access and escalate privileges
+- Generate a professional VAPT report
+
+---
+
+# 🛠️ Tools & Technologies Used
+| Category | Tools |
+|---------|-------|
+| Attacker Machine | Kali Linux |
+| Target Machine | Metasploitable2 |
+| Scanning | Nmap, Nikto |
+| Web Enumeration | WhatWeb, Gobuster, Dirb, ffuf |
+| Exploitation | Metasploit Framework |
+| Bruteforce | Hydra |
+| Database Attacks | SQLmap |
+| Post Exploitation | Netcat, Meterpreter |
+| Reporting | Markdown, PDF |
+
+---
+
+# 🌐 LAB SETUP
+1. Install **VMware/VirtualBox**
+2. Create two VMs:
+   - **Kali Linux (Attacker)**
+   - **Metasploitable2 (Target)**
+3. Set both to:
+Network Mode: Host-Only / NAT
+4. Confirm connectivity:
+ping <metasploitable-ip>
