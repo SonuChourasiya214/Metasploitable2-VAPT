@@ -76,13 +76,9 @@ Service	Vulnerability	Impact
 
 FTP (21)	vsftpd 2.3.4 Backdoor	Root shell
 
-IRC (6667)	UnrealIRCd Backdoor	Remote code execution
-
 HTTP (8180)	Tomcat Manager RCE	Remote WAR upload
 
 SMB (445)	Misconfigured Samba	Local user shell
-
-MySQL (3306)	Weak credentials	DB Access
 
 4. Post-Exploitation
 
@@ -116,7 +112,6 @@ Tomcat Manager Weak Auth	High	Full server compromise
 
 Samba Misconfiguration	High	Local user shell
 
-MySQL Weak Password	High	DB leakage
 
 Mitigation steps are included in Report.pdf.
 
